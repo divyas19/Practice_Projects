@@ -1,0 +1,46 @@
+.navbar-parent {
+  height: 10vh;
+  background-color: #f2f5f8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-parent-child1 {
+}
+
+.navbar-parent-child2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-parent-child2 > div {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-parent-child3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-parent-child3 > span {
+  padding: 10px;
+}
+
+.navbar-parent-child3 > div {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 725px) {
+  .navbar-parent {
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+  }
+}

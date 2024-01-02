@@ -1,0 +1,407 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 120px;
+}
+nav h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  opacity: 0.9;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.about {
+  position: relative;
+  text-align: center;
+  height: 480px;
+}
+
+.about img {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.about-content {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  width: 30%;
+  text-align: start;
+}
+
+.about-content-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin: 0px 0px;
+}
+
+.about-content-data {
+  color: white;
+}
+
+.about-content > button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
+
+.aside-design-types {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+
+  margin-top: 70px;
+}
+
+.design-types {
+  width: 80%;
+  height: 100%;
+  gap: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-types-left {
+  height: 100%;
+  width: 49%;
+  border-radius: 20px;
+}
+
+.design-types-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6%;
+  width: 49%;
+  height: 100%;
+}
+
+.design1,
+.design2 {
+  height: 47%;
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+.aside-qualities {
+  height: 300px;
+  margin-top: 70px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.qualities {
+  width: 80%;
+  height: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qualities div {
+  flex: 0 0 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quality1 > img,
+.quality2 > img,
+.quality3 > img {
+  width: 130px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.quality1 > h2,
+.quality2 > h2,
+.quality3 > h2 {
+  margin: 0px;
+}
+
+.quality1 > p,
+.quality2 > p,
+.quality3 > p {
+  text-align: center;
+}
+
+.project-talk {
+  position: relative;
+  text-align: center;
+  height: 220px;
+  margin-top: 70px;
+}
+
+.project-talk img {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.project-talk-info {
+  position: absolute;
+  top: 22px;
+  left: 15.5%;
+
+  width: 69%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-talk-info > button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
+
+.project-info-content {
+  width: 50%;
+  text-align: start;
+}
+
+.project-info-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin: 0px 0px;
+}
+
+.project-info-data {
+  color: white;
+}
+
+footer {
+  position: absolute;
+  z-index: -1;
+  top: 165px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-type {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  flex: 0 0 50%;
+  border-bottom: 1px solid rgb(82, 81, 81);
+}
+
+.name-logo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.name-logo > img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-sub-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  gap: 23px;
+}
+
+.nav-sub-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.contact-info {
+  flex: 0 0 50%;
+  display: flex;
+  width: 100%;
+}
+
+.contact-info > div {
+  margin-top: 10px;
+  flex: 0 0 50%;
+}
+
+.address-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address > p,
+.contact > p {
+  color: rgb(183, 173, 173);
+  text-align: start;
+  font-weight: 700;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.logos > img {
+  margin-top: 70px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 981px) {
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about img {
+    width: 97%;
+  }
+
+  .about-content {
+    top: 23%;
+    left: 8%;
+    gap: 9px;
+    width: 58%;
+  }
+
+  .aside-design-types {
+    margin-top: 120px;
+  }
+
+  .design-types {
+    flex-direction: column;
+  }
+
+  .design-types-left {
+    height: 46%;
+    width: 76%;
+  }
+
+  .design-types-right {
+    width: 77%;
+    gap: 3.5%;
+  }
+
+  .aside-qualities {
+    height: 685px;
+    margin-top: 88px;
+  }
+
+  .qualities {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .project-talk {
+    height: 350px;
+  }
+
+  .project-talk-info {
+    top: 32px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer {
+    margin-top: 160px;
+    height: 376px;
+  }
+
+  .nav-type {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+  .nav-sub-links {
+    margin-top: 10px;
+  }
+
+  .logos {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-content {
+    top: 3%;
+    left: 8%;
+    gap: 9px;
+    width: 58%;
+  }
+}
